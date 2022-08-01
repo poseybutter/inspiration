@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Posey - 프로필 링크">
+    <meta property="og:description" content="inspiration">
+    <meta property="og:image" content="window.jpg">
+    <title> poseybutter - 프로필 링크</title>
+    <style>
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+    * {
+        font-family: "Pretendard",serif;
+    }
+
+    body {
+        background-color:#fff5db ;
+      }
+      .profile {
+        width: 100px;
+        height: 100px;
+
+       
+        border-radius: 100%;
+
+        border : 0.02px solid rgba(46, 36, 22, 0.712);
+
+        background-image: url('window.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .main {
+        color: black;
+        font-size: 20px;
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .sub {
+        color: black;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .wrap {
+        width: 300px;
+        margin: 30px auto 0px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap > a {
+        width: 300px;
+        height: 50px;
+        background-color: white;
+        border-radius: 8px;
+    
+        margin-bottom: 10px;
+
+        font-size: 14px;
+        font-weight: bold;
+        color: black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+
+        box-shadow: 3px 3px 5px 0px black;
+    }
+    .wrap > a:hover {
+        background-color:#f2f2f2;
+    }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>  
+        <h1 class="main"> Posey</h1>
+        <p class="sub"> poseybutter@gmail.com</p> 
+        <a target="_blank" href="https://www.instagram.com/yellowposey/">instagram</a>
+        <a target="_blank" href="https://poseybutter-insight.tistory.com/">tistory</a>
+
+    </div>
+</body>
+</html>
